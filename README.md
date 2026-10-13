@@ -9,6 +9,7 @@
 | 你的设备 | 文件 |
 | --- | --- |
 | 💻 Windows（64 位） | `reelio-<版本号>-Setup.exe` |
+| 🍎 Mac（M 系列芯片） | `macos-arm64-reelio.dmg` |
 | 🍎 Mac（Intel 芯片） | `stable-macos-x64-reelio.dmg` |
 
 **只下载安装包即可。** 同目录下的 `*.tar.zst` 与 `*-update.json` 是软件内「检查更新」自动下载用的，**不要删除**，否则自动更新会失败。
@@ -31,4 +32,4 @@
    ```
 3. 最后手段：终端执行 `sudo spctl --master-disable`，再在「隐私与安全性」中选「任何来源」。此操作会放宽所有 App 的安全限制，完成后建议改回“App Store 和被认可的开发者”。
 
-> 🍎 **M 系列芯片**：当前为 Intel 包，首次运行会提示安装 Rosetta，允许即可。后续会提供签名版 Apple Silicon 安装包。
+> 🍎 **芯片怎么选**：M1/M2/M3/M4 选 M 系列包（原生运行、更快）；老款 Intel Mac 选 Intel 包。当前 Mac 包未做开发者签名，后续会提供签名版。
